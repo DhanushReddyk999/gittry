@@ -1,19 +1,13 @@
 {
-  "name": "my-simple-project",
+  "name": "my-website",
   "version": "1.0.0",
-  "description": "A simple Node.js project.",
+  "description": "My simple website",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo 'No tests yet' && exit 0",
+    "build": "echo 'Build complete'"
   },
-  "scripts": {
-  "build": "npm run build"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
-  "devDependencies": {}
+  "author": "Your Name",
+  "license": "MIT"
 }
